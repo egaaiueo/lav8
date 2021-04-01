@@ -1,0 +1,83 @@
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+body {
+      font-family: "Helvetica Neue",sans-serif;
+      font-weight: lighter;
+}
+
+.banner_area {
+      background: url("../img/asd.jpg") no-repeat fixed;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      padding-bottom: 70px;   
+      color: white;
+      height: 300px;
+}
+.banner_area:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+      z-index: -1;
+}
+.banner_area h1 {
+      font: 400 40px "Oswald", sans-serif;
+      text-transform: uppercase;
+      padding-top: 85px;
+}
+.banner_area img {
+      margin-top: 55px;
+      margin-bottom: -70px;
+}
+img{
+      height: 100px;
+      width: 100px;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.card {
+      padding: 50px;
+      box-shadow: 0px 15px 30px gray;
+      border-radius: 10px;
+}
+.ling {
+      margin-top: 70px;
+      padding: 15px;
+      width: 300px;
+}
+.page-footer{
+      background: url("../img/qwe.jpg") no-repeat fixed;
+      background-position: center;
+      position: relative;
+      z-index: 1;
+      color: white;
+}
+.page-footer:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: block;
+      z-index: -1;
+}
+.col-md-4{
+      margin-bottom: 30px;
